@@ -6,11 +6,13 @@ import {NgRedux, NgReduxModule} from "@angular-redux/store"
 import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { IAppState, rootReducer, INITIAL_STATE } from './store';
+import { BoxComponent } from './box/box.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    BoxComponent,
   ],
   imports: [
     BrowserModule,

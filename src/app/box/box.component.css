@@ -1,0 +1,10 @@
+.box {
+    border: solid 1px red;
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
